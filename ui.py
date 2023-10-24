@@ -16,7 +16,7 @@ class View(QWidget):
         self.te1.setReadOnly(True)
         
         self.lbl1 = QLabel('v2.3.0',self)
-        self.lbl1.setFont(QFont('Consolas', 10))
+        self.lbl1.setFont(QFont('Consolas', 12))
         self.btn1=QPushButton('Calc',self)
         self.btn2=QPushButton('Clear',self)
         
